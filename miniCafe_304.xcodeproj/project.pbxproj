@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31387FC126F0D1B400978F2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31387FC026F0D1B400978F2E /* AppDelegate.swift */; };
+		31387FC326F0D1B400978F2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31387FC226F0D1B400978F2E /* SceneDelegate.swift */; };
+		31387FC526F0D1B400978F2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31387FC426F0D1B400978F2E /* ViewController.swift */; };
+		31387FC826F0D1B400978F2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31387FC626F0D1B400978F2E /* Main.storyboard */; };
+		31387FCA26F0D1B500978F2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31387FC926F0D1B500978F2E /* Assets.xcassets */; };
+		31387FCD26F0D1B500978F2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31387FCB26F0D1B500978F2E /* LaunchScreen.storyboard */; };
+		31387FD826F0D1B500978F2E /* miniCafe_304Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31387FD726F0D1B500978F2E /* miniCafe_304Tests.swift */; };
+		31387FE326F0D1B500978F2E /* miniCafe_304UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31387FE226F0D1B500978F2E /* miniCafe_304UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31387FD426F0D1B500978F2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31387FB526F0D1B400978F2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31387FBC26F0D1B400978F2E;
+			remoteInfo = miniCafe_304;
+		};
+		31387FDF26F0D1B500978F2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31387FB526F0D1B400978F2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31387FBC26F0D1B400978F2E;
+			remoteInfo = miniCafe_304;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31387FBD26F0D1B400978F2E /* miniCafe_304.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = miniCafe_304.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31387FC026F0D1B400978F2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31387FC226F0D1B400978F2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		31387FC426F0D1B400978F2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31387FC726F0D1B400978F2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31387FC926F0D1B500978F2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31387FCC26F0D1B500978F2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31387FCE26F0D1B500978F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31387FD326F0D1B500978F2E /* miniCafe_304Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = miniCafe_304Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31387FD726F0D1B500978F2E /* miniCafe_304Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miniCafe_304Tests.swift; sourceTree = "<group>"; };
+		31387FD926F0D1B500978F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31387FDE26F0D1B500978F2E /* miniCafe_304UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = miniCafe_304UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31387FE226F0D1B500978F2E /* miniCafe_304UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miniCafe_304UITests.swift; sourceTree = "<group>"; };
+		31387FE426F0D1B500978F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31387FBA26F0D1B400978F2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31387FD026F0D1B500978F2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31387FDB26F0D1B500978F2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31387FB426F0D1B400978F2E = {
+			isa = PBXGroup;
+			children = (
+				31387FBF26F0D1B400978F2E /* miniCafe_304 */,
+				31387FD626F0D1B500978F2E /* miniCafe_304Tests */,
+				31387FE126F0D1B500978F2E /* miniCafe_304UITests */,
+				31387FBE26F0D1B400978F2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31387FBE26F0D1B400978F2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31387FBD26F0D1B400978F2E /* miniCafe_304.app */,
+				31387FD326F0D1B500978F2E /* miniCafe_304Tests.xctest */,
+				31387FDE26F0D1B500978F2E /* miniCafe_304UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31387FBF26F0D1B400978F2E /* miniCafe_304 */ = {
+			isa = PBXGroup;
+			children = (
+				31387FC026F0D1B400978F2E /* AppDelegate.swift */,
+				31387FC226F0D1B400978F2E /* SceneDelegate.swift */,
+				31387FC426F0D1B400978F2E /* ViewController.swift */,
+				31387FC626F0D1B400978F2E /* Main.storyboard */,
+				31387FC926F0D1B500978F2E /* Assets.xcassets */,
+				31387FCB26F0D1B500978F2E /* LaunchScreen.storyboard */,
+				31387FCE26F0D1B500978F2E /* Info.plist */,
+			);
+			path = miniCafe_304;
+			sourceTree = "<group>";
+		};
+		31387FD626F0D1B500978F2E /* miniCafe_304Tests */ = {
+			isa = PBXGroup;
+			children = (
+				31387FD726F0D1B500978F2E /* miniCafe_304Tests.swift */,
+				31387FD926F0D1B500978F2E /* Info.plist */,
+			);
+			path = miniCafe_304Tests;
+			sourceTree = "<group>";
+		};
+		31387FE126F0D1B500978F2E /* miniCafe_304UITests */ = {
+			isa = PBXGroup;
+			children = (
+				31387FE226F0D1B500978F2E /* miniCafe_304UITests.swift */,
+				31387FE426F0D1B500978F2E /* Info.plist */,
+			);
+			path = miniCafe_304UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31387FBC26F0D1B400978F2E /* miniCafe_304 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31387FE726F0D1B500978F2E /* Build configuration list for PBXNativeTarget "miniCafe_304" */;
+			buildPhases = (
+				31387FB926F0D1B400978F2E /* Sources */,
+				31387FBA26F0D1B400978F2E /* Frameworks */,
+				31387FBB26F0D1B400978F2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = miniCafe_304;
+			productName = miniCafe_304;
+			productReference = 31387FBD26F0D1B400978F2E /* miniCafe_304.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31387FD226F0D1B500978F2E /* miniCafe_304Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31387FEA26F0D1B500978F2E /* Build configuration list for PBXNativeTarget "miniCafe_304Tests" */;
+			buildPhases = (
+				31387FCF26F0D1B500978F2E /* Sources */,
+				31387FD026F0D1B500978F2E /* Frameworks */,
+				31387FD126F0D1B500978F2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31387FD526F0D1B500978F2E /* PBXTargetDependency */,
+			);
+			name = miniCafe_304Tests;
+			productName = miniCafe_304Tests;
+			productReference = 31387FD326F0D1B500978F2E /* miniCafe_304Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31387FDD26F0D1B500978F2E /* miniCafe_304UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31387FED26F0D1B500978F2E /* Build configuration list for PBXNativeTarget "miniCafe_304UITests" */;
+			buildPhases = (
+				31387FDA26F0D1B500978F2E /* Sources */,
+				31387FDB26F0D1B500978F2E /* Frameworks */,
+				31387FDC26F0D1B500978F2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31387FE026F0D1B500978F2E /* PBXTargetDependency */,
+			);
+			name = miniCafe_304UITests;
+			productName = miniCafe_304UITests;
+			productReference = 31387FDE26F0D1B500978F2E /* miniCafe_304UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31387FB526F0D1B400978F2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					31387FBC26F0D1B400978F2E = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					31387FD226F0D1B500978F2E = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 31387FBC26F0D1B400978F2E;
+					};
+					31387FDD26F0D1B500978F2E = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 31387FBC26F0D1B400978F2E;
+					};
+				};
+			};
+			buildConfigurationList = 31387FB826F0D1B400978F2E /* Build configuration list for PBXProject "miniCafe_304" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31387FB426F0D1B400978F2E;
+			productRefGroup = 31387FBE26F0D1B400978F2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31387FBC26F0D1B400978F2E /* miniCafe_304 */,
+				31387FD226F0D1B500978F2E /* miniCafe_304Tests */,
+				31387FDD26F0D1B500978F2E /* miniCafe_304UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31387FBB26F0D1B400978F2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31387FCD26F0D1B500978F2E /* LaunchScreen.storyboard in Resources */,
+				31387FCA26F0D1B500978F2E /* Assets.xcassets in Resources */,
+				31387FC826F0D1B400978F2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31387FD126F0D1B500978F2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31387FDC26F0D1B500978F2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31387FB926F0D1B400978F2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31387FC526F0D1B400978F2E /* ViewController.swift in Sources */,
+				31387FC126F0D1B400978F2E /* AppDelegate.swift in Sources */,
+				31387FC326F0D1B400978F2E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31387FCF26F0D1B500978F2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31387FD826F0D1B500978F2E /* miniCafe_304Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31387FDA26F0D1B500978F2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31387FE326F0D1B500978F2E /* miniCafe_304UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31387FD526F0D1B500978F2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31387FBC26F0D1B400978F2E /* miniCafe_304 */;
+			targetProxy = 31387FD426F0D1B500978F2E /* PBXContainerItemProxy */;
+		};
+		31387FE026F0D1B500978F2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31387FBC26F0D1B400978F2E /* miniCafe_304 */;
+			targetProxy = 31387FDF26F0D1B500978F2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31387FC626F0D1B400978F2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31387FC726F0D1B400978F2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31387FCB26F0D1B500978F2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31387FCC26F0D1B500978F2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31387FE526F0D1B500978F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31387FE626F0D1B500978F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31387FE826F0D1B500978F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JQ7BN4VH8D;
+				INFOPLIST_FILE = miniCafe_304/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CLC.miniCafe-304";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31387FE926F0D1B500978F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JQ7BN4VH8D;
+				INFOPLIST_FILE = miniCafe_304/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CLC.miniCafe-304";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		31387FEB26F0D1B500978F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JQ7BN4VH8D;
+				INFOPLIST_FILE = miniCafe_304Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CLC.miniCafe-304Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/miniCafe_304.app/miniCafe_304";
+			};
+			name = Debug;
+		};
+		31387FEC26F0D1B500978F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JQ7BN4VH8D;
+				INFOPLIST_FILE = miniCafe_304Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CLC.miniCafe-304Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/miniCafe_304.app/miniCafe_304";
+			};
+			name = Release;
+		};
+		31387FEE26F0D1B500978F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JQ7BN4VH8D;
+				INFOPLIST_FILE = miniCafe_304UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CLC.miniCafe-304UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = miniCafe_304;
+			};
+			name = Debug;
+		};
+		31387FEF26F0D1B500978F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JQ7BN4VH8D;
+				INFOPLIST_FILE = miniCafe_304UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CLC.miniCafe-304UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = miniCafe_304;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31387FB826F0D1B400978F2E /* Build configuration list for PBXProject "miniCafe_304" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31387FE526F0D1B500978F2E /* Debug */,
+				31387FE626F0D1B500978F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31387FE726F0D1B500978F2E /* Build configuration list for PBXNativeTarget "miniCafe_304" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31387FE826F0D1B500978F2E /* Debug */,
+				31387FE926F0D1B500978F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31387FEA26F0D1B500978F2E /* Build configuration list for PBXNativeTarget "miniCafe_304Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31387FEB26F0D1B500978F2E /* Debug */,
+				31387FEC26F0D1B500978F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31387FED26F0D1B500978F2E /* Build configuration list for PBXNativeTarget "miniCafe_304UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31387FEE26F0D1B500978F2E /* Debug */,
+				31387FEF26F0D1B500978F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31387FB526F0D1B400978F2E /* Project object */;
+}
